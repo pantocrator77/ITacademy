@@ -126,12 +126,6 @@ ul {
   	background-image: url(IMG/destacados_3.jpg);
 }
 
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 #main {
 	width: 1000px;
 	margin-top: 15px;
