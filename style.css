@@ -20,8 +20,8 @@ h1{
 	text-shadow: #000000 0 2px;
 	font-display: block;
 	background-color: #37264d;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-top: 25px;
+	padding-bottom: 20px;
 	margin-top: 5px;
 
 }
@@ -182,7 +182,6 @@ ul {
 	float: left;    
  	padding-right:15px;
 }
-
 #texto {
 	width: 520px;
 	background-color: #4b4b4d;
@@ -190,6 +189,8 @@ ul {
 	margin-left: 220px;
 	text-align: left;
 	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 /*estilos footer*/
 footer{
