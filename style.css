@@ -96,12 +96,12 @@ ul {
 	float: left;
 	text-align: center;
 	width: 198px;
-	height: 35px;
+	height: 30px;
 	background-image: url(IMG/boton_1.jpg);
   display: inline-block;
   margin-bottom: 25px;
   margin-left: 2px;
-  padding-top: 15px;
+  padding-top: 20px;
 
 }
 .main-menu {
