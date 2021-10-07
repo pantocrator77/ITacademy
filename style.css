@@ -1,12 +1,13 @@
 <style>
+
 /*estilos genericos*/
+
 * {
 	margin:0;
 	padding:0;
 	border:0;
 }
 html { 
-	/*background-color: #e6e7e9;*/
 	background-color: #212121;
 
 }
@@ -33,6 +34,7 @@ h2{
 }
 
 /*estilos cabecera*/
+
 header { 
 	max-width: 1000px; 
 	display: block;
@@ -73,7 +75,9 @@ body {
     margin-top: 25px;
     overflow:hidden;
 }
+
 /*estilos navegador*/
+
 nav {
 	max-width: 1000px;
 	margin-top: 10px;
@@ -83,7 +87,7 @@ nav {
 }
 
 nav a:hover {
-  background-color: grey;
+  border-bottom: 2px solid white;
 }
 
 ul {
@@ -113,19 +117,23 @@ ul {
 /*estilos destacados*/
 
 .slider-1{
-    border: 1px solid #969696;
+  border: 1px solid #969696;
 	float: left;
 	width: 325px;
 	height: 140px;
 	border: 
-  	margin-left: 0px;
-  	padding-top: 50px;
-  	display: block;
-  	text-align: center;
-  	text-shadow: #000000 0 2px;
-  	background-color: #858688;
-  	background-image: url(IMG/destacados_1.jpg);
+  margin-left: 0px;
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+  text-shadow: #000000 0 2px;
+  text-decoration: none;
+  background-color: #858688;
+  background-image: url(IMG/destacados_1.jpg);
 }
+.slider-1 a:hover{
+  border-bottom: 1px solid white;
+} 
 .slider-2 {
 	border: 1px solid #969696;
 	float: left;
@@ -139,6 +147,9 @@ ul {
   	background-color: #858688;
   	background-image: url(IMG/destacados_2.jpg);
 }
+.slider-2 a:hover{
+  border-bottom: 1px solid white;
+} 
 .slider-3 {
 	border: 1px solid #969696;
 	float: left;
@@ -152,7 +163,12 @@ ul {
   	background-color: #858688;
   	background-image: url(IMG/destacados_3.jpg);
 }
+.slider-3 a:hover{
+  border-bottom: 1px solid white;
+} 
+
 /*estilo main*/
+
 #main {
 	width: 1000px;
 	margin-top: 25px;
